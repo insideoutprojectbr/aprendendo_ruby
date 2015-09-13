@@ -3,7 +3,7 @@
 ##RVM (Ruby Version Manager)
 Ferramenta que facilita a instalação e gerenciamento de múltiplas versões de Ruby e conjuntos de dependências de um projeto, chamadas **gems**. **Gemset** é o **conjunto de gems**.
 
-####Instalação do RVM
+#### Instalação do RVM
 ```shell
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo apt-get install curl
@@ -13,6 +13,8 @@ Para que o RVM seja inicializado, é preciso fechar a janela do terminal, e abri
 ```shell
 source ~/.rvm/scripts/rvm
 ```
+#### Comandos úteis 
+
 ##### Instala um versão de ruby
 ```shell
 rvm install versao_de_ruby
