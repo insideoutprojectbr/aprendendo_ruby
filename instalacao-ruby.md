@@ -63,15 +63,19 @@ Gerenciador de pacotes de Ruby que possibilita a distribuição de programas e b
 
 ####Comandos úteis
 
-##### Como instalar uma gem?
+##### Instala uma gem
 ```shell
 gem install nome_da_gem
 ```
-##### Como desistalar uma gem?
+##### Instala uma gem em uma versão específica
+```shell
+gem install nome_da_gem -v versao_da_gem
+```
+##### Desinstala uma gem
 ```shell
 gem uninstall nome_da_gem
 ```
-##### Como atualizar uma gem?
+##### Atualiza uma gem
 ```shell
 gem update nome_da_gem
 ```
