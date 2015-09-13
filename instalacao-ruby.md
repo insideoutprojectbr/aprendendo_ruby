@@ -3,7 +3,8 @@
 ##RVM (Ruby Version Manager)
 Ferramenta que facilita a instalação e gerenciamento de múltiplas versões de Ruby e conjuntos de dependências de um projeto, chamadas **gems**. **Gemset** é o **conjunto de gems**.
 
-#### Instalação
+### Instalação
+
 ```shell
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo apt-get install curl
@@ -91,7 +92,7 @@ Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependê
 
 Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo Gemfile.lock é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
 
-##### Instalação
+#### Instalação
 ```shell
   gem install bundler
 ```
