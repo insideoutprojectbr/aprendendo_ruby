@@ -113,5 +113,6 @@ bundle update
 Leia mais em: http://bundler.io
 
 ## Versionamento Semântico
-Tanto as versões de Ruby, como as de suas bibliotecas seguem o versionamento semântico.
+Tanto as versões de Ruby, como as de suas gems seguem o versionamento semântico.
+
 Leia mais em: http://semver.org/lang/pt-BR/
