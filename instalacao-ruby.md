@@ -40,6 +40,7 @@ rvm gemset delete nome_do_gemset
 rvm gemset empty nome_do_gemset
 ```
 Leia mais em: https://rvm.io
+
 Para entender como versionamento semântico funciona, leia mais em: http://semver.org/lang/pt-BR/
 
 ## RubyGems
