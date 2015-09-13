@@ -9,19 +9,23 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 sudo apt-get install curl
 curl -sSL https://get.rvm.io | bash -s stable --ruby #Instala o rvm, com a versão mais recente de ruby
 ```
+Para que o RVM seja inicializado, é preciso fechar a janela do terminal, e abrir uma nova, ou executar o seguinte comando na janela de terminal corrente:
+```shell
+source ~/.rvm/scripts/rvm
+```
 ##### Instala um versão de ruby
 ```shell
 rvm install versao_de_ruby
 ```
-#### Seleciona um versão de ruby
+##### Seleciona um versão de ruby
 ```shell
 rvm use versao_de_ruby
 ```
-#### Seleciona versão de Ruby em determinado gemset(Cria se não existir)
+##### Seleciona versão de Ruby em determinado gemset(Cria se não existir)
 ```shell
 rvm use versao_de_ruby@nome_do_gemset --create
 ```
-#### Cria um gemset
+##### Cria um gemset
 ```shell
 rvm gemset create nome_do_gemset
 ```
