@@ -83,10 +83,13 @@ Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependê
 
 Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo Gemfile.lock é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
 
-##### Instala o Bundler
+##### Instalação
 ```shell
   gem install bundler
 ```
+
+#### Comandos úteis
+
 ##### Gera um Gemfile no diretório corrente
 ```shell
   bundle init
