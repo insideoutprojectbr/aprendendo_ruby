@@ -14,7 +14,14 @@ Para que o RVM seja inicializado, é preciso fechar a janela do terminal, e abri
 source ~/.rvm/scripts/rvm
 ```
 #### Comandos úteis 
-
+#### Lista as versões de ruby instaladas
+```shell
+rvm list
+```
+#### Mostra as últimas versões de ruby lançadas
+```shell
+ rvm list known
+```
 ##### Instala um versão de ruby
 ```shell
 rvm install versao_de_ruby
