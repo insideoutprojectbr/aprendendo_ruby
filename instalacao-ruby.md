@@ -116,7 +116,7 @@ Gems podem ser referenciadas de um diretório local:
 ``` ruby
 gem 'extracted_library', :path => './vendor/extracted_library'
 ```
-Também é possivel agrupar as gems em grupos: 
+Também é possivel definir grupos: 
 ``` ruby
 gem 'wirble', :group => :development
 gem 'debugger', :group => [:development, :test]
