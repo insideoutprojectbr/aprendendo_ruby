@@ -9,7 +9,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 sudo apt-get install curl
 curl -sSL https://get.rvm.io | bash -s stable --ruby #Instala o rvm, com a versão mais recente de ruby
 ```
-#### Instala um versão de ruby
+##### Instala um versão de ruby
 ```shell
 rvm install versao_de_ruby
 ```
