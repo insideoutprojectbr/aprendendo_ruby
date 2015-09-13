@@ -31,30 +31,31 @@ rvm use versao_de_ruby@nome_do_gemset --create
 ```shell
 rvm gemset create nome_do_gemset
 ```
-#### Remove um gemset
+##### Remove um gemset
 ```shell
 rvm gemset delete nome_do_gemset
 ```
-#### Esvazia um gemset
+##### Esvazia um gemset
 ```shell
 rvm gemset empty nome_do_gemset
 ```
-
 Leia mais em: https://rvm.io
 
 ## RubyGems
 
 Gerenciador de pacotes de Ruby que possibilita a distribuição de programas e bibliotecas empacotadas em um formato chamado gem. Faz parte da biblioteca padrão de Ruby desde a versão 1.9.
 
-#### Como instalar uma gem?
+####Comandos úteis
+
+##### Como instalar uma gem?
 ```shell
 gem install nome_da_gem
 ```
-#### Como desistalar uma gem?
+##### Como desistalar uma gem?
 ```shell
 gem uninstall nome_da_gem
 ```
-#### Como atualizar uma gem?
+##### Como atualizar uma gem?
 ```shell
 gem update nome_da_gem
 ```
@@ -62,29 +63,31 @@ Leia mais em: http://guides.rubygems.org
 
 ## Bundler
 
-Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as depêndencias de um projeto são definidas em um arquivo chamado Gemfile. Uma vez criado esse arquivo, as gems podem ser baixadas e instaladas automaticamente. Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo Gemfile.lock é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
+Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependências de um projeto são definidas em um arquivo chamado Gemfile. Uma vez criado esse arquivo, as gems podem ser baixadas e instaladas automaticamente. 
 
-####Instala o Bundler
+Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo Gemfile.lock é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
+
+##### Instala o Bundler
 ```shell
   gem install bundler
 ```
-####Gera um Gemfile no diretório corrente
+##### Gera um Gemfile no diretório corrente
 ```shell
   bundle init
 ```
-####Instala as gems definidas no Gemfile
+##### Instala as gems definidas no Gemfile
 ```shell
   bundle install
 ```
-####Remove gems não utilizadas no projeto
+##### Remove gems não utilizadas no projeto
 ```shell
   bundle clean --force
 ```
-#### Atualiza a versão da gem no Gemfile.lock
+##### Atualiza a versão da gem no Gemfile.lock
 ```shell
 bundle update nome_da_gem
 ```
-#### Atualiza todas as gems
+##### Atualiza todas as gems
 ```shell
 bundle update
 ```
