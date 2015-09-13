@@ -112,6 +112,19 @@ Gems também podem ser baixada de um repositório git:
 ``` ruby
 gem 'nokogiri', :git => 'https://github.com/tenderlove/nokogiri.git', :branch => '1.4'
 ```
+Gems podem ser referenciadas de um diretório local:
+``` ruby
+gem 'extracted_library', :path => './vendor/extracted_library'
+```
+Também é possivel agrupar as gems em grupos: 
+``` ruby
+gem 'wirble', :group => :development
+gem 'debugger', :group => [:development, :test]
+
+group :test do
+  gem 'rspec'
+end
+```
 
 #### Comandos úteis
 
