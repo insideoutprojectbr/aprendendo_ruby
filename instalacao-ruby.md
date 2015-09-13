@@ -55,7 +55,7 @@ nome_do_gemset
 
 ## RubyGems
 
-Gerenciador de pacotes de Ruby que possibilita a distribuição de programas e bibliotecas empacotadas em um formato chamado gem. Faz parte da biblioteca padrão de Ruby desde a versão 1.9.
+Gerenciador de pacotes de Ruby que possibilita a distribuição de programas e bibliotecas empacotadas em um formato chamado **gem**. Faz parte da biblioteca padrão de Ruby desde a versão 1.9.
 
 ####Comandos úteis
 
