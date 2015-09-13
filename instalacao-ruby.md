@@ -101,7 +101,7 @@ Antes de instalar as gems, essa ferramenta verifica se as versões das gems defi
 
 É necessário que seja declarado ao menos uma origem de onde as gems serão baixadas. O Gemfile padrão usa como origem o https://rubygems.org.
 
-#### Exemplo:
+#### Exemplo
 ``` ruby
 source 'https://rubygems.org'
 gem 'nokogiri'
