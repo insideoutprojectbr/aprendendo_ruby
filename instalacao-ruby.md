@@ -46,6 +46,8 @@ Para entender como versionamento semântico funciona, leia mais em: http://semve
 #### .ruby-version e .ruby-gemset
 Com o fim de facilitar a seleção de ruby e criação de gemset próprio, no diretório do seu projeto podem ser criados os arquivos .ruby-version (responsável por escolher versão de ruby) e .ruby-gemset (responsável por escolher o gemset, caso não exista é criado automaticamente). Esses arquivos serão lidos automaticamente no momento em que se entre no diretório do projeto.
 
+#### Exemplos
+
 ##### .ruby-version
 ```
 2.2.1
