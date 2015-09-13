@@ -90,7 +90,7 @@ Leia mais em: http://guides.rubygems.org
 
 Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependências de um projeto são definidas em um arquivo chamado **Gemfile**. Uma vez criado esse arquivo, as gems podem ser baixadas e instaladas automaticamente. 
 
-Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo **Gemfile.lock** é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo. Para manter essa consistência é importante sempre fazer commit desse arquivo.
+Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo **Gemfile.lock** é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo. Por esse motivo, é importante sempre fazer commit desse arquivo.
 
 #### Instalação
 ```shell
