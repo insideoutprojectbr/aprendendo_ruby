@@ -3,7 +3,7 @@
 ##RVM (Ruby Version Manager)
 Ferramenta que facilita a instalação e gerenciamento de múltiplas versões de Ruby e conjuntos de dependências de um projeto, chamadas **gems**. **Gemset** é o **conjunto de gems**.
 
-#### Instalação do RVM
+#### Instalação
 ```shell
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo apt-get install curl
@@ -41,12 +41,8 @@ rvm gemset empty nome_do_gemset
 ```
 Leia mais em: https://rvm.io
 
-Para entender como versionamento semântico funciona, leia mais em: http://semver.org/lang/pt-BR/
-
 #### .ruby-version e .ruby-gemset
 Com o fim de facilitar a seleção de ruby e criação de gemset próprio, no diretório do seu projeto podem ser criados os arquivos .ruby-version (responsável por escolher versão de ruby) e .ruby-gemset (responsável por escolher o gemset, caso não exista é criado automaticamente). Esses arquivos serão lidos automaticamente no momento em que se entre no diretório do projeto.
-
-#### Exemplos
 
 ##### .ruby-version
 ```
@@ -112,3 +108,7 @@ bundle update nome_da_gem
 bundle update
 ```
 Leia mais em: http://bundler.io
+
+## Versionamento Semântico
+Tanto as versões de Ruby, como as de suas bibliotecas seguem o versionamento semântico.
+Leia mais em: http://semver.org/lang/pt-BR/
