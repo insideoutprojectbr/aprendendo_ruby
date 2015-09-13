@@ -46,7 +46,7 @@ Com o fim de facilitar a seleção de ruby e criação de gemset próprio, no di
 
 ##### .ruby-version
 ```
-2.2.1
+versao_de_ruby
 ```
 ##### .ruby-gemset
 ```
