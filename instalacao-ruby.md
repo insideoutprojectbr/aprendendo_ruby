@@ -88,13 +88,25 @@ Leia mais em: http://guides.rubygems.org
 
 ## Bundler
 
-Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependências de um projeto são definidas em um arquivo chamado Gemfile. Uma vez criado esse arquivo, as gems podem ser baixadas e instaladas automaticamente. 
+Ferramenta que facilita o gerenciamento de gems de um projeto. Todas as dependências de um projeto são definidas em um arquivo chamado **Gemfile**. Uma vez criado esse arquivo, as gems podem ser baixadas e instaladas automaticamente. 
 
-Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo Gemfile.lock é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
+Antes de instalar as gems, essa ferramenta verifica se as versões das gems definidas são compatíveis entre si e se estas podem ser todas carregadas ao mesmo tempo. Após a instalação, o arquivo **Gemfile.lock** é gerado, responsável por armazenar as versões exatas de gem que foram instaladas, permitindo consistência entre ambientes em que vários desenvolvedores trabalham juntos, por exemplo.
 
 #### Instalação
 ```shell
   gem install bundler
+```
+
+#### Gemfile
+
+Precisam que seja declarado ao menos uma origem para que as gems sejam baixadas. O Gemfile padrão usa como origem o https://rubygems.org.
+
+#### Exemplo:
+``` ruby
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack',  '>=1.0'
+gem 'thin',  '~>1.1'
 ```
 
 #### Comandos úteis
